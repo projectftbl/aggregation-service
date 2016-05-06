@@ -1,7 +1,7 @@
 {
-  "name": "@ftbl/harvest-service",
+  "name": "@ftbl/aggregation-service",
   "version": "0.0.0",
-  "description": "Content harvesting services",
+  "description": "Content aggregation services",
   "main": "node index",
   "scripts": {
     "start": "node --harmony bootstrap",
@@ -15,13 +15,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:projectftbl/harvest-service.git"
+    "url": "git@github.com:projectftbl/aggregation-service.git"
   },
   "dependencies": {
     "@ftbl/app": "^1.1.4",
-    "@ftbl/authentication": "^1.0.1",
     "@ftbl/bootstrap": "^1.0.0",
-    "@ftbl/bus": "^1.0.4",
+    "@ftbl/bus": "^1.0.9",
     "@ftbl/configuration": "^1.0.0",
     "@ftbl/errors": "^1.0.0",
     "@ftbl/log": "^1.0.0",
@@ -29,31 +28,30 @@
     "@ftbl/request": "^1.0.0",
     "@ftbl/scheduler": "^1.0.3",
     "@ftbl/server": "^1.1.1",
-    "@ftbl/social": "^1.0.0",
-    "@ftbl/socket": "^1.0.4",
+    "@ftbl/social": "^1.1.7",
+    "@ftbl/socket": "^1.1.2",
     "@ftbl/store": "^1.1.3",
-    "@ftbl/task": "^1.1.2",
-    "@ftbl/utility": "^1.0.1",
+    "@ftbl/task": "^1.1.4",
+    "@ftbl/users": "^1.0.0",
+    "@ftbl/utility": "^1.1.0",
     "bluebird": "^2.10.1",
-    "cron": "^1.1.0",
-    "exarch": "^1.0.2",
     "feedparser": "^1.1.4",
-    "lodash": "^3.10.1",
-    "moment": "^2.11.2",
+    "lodash": "^4.11.2",
+    "moment": "^2.13.0",
     "request": "^2.69.0",
     "sanitize-html": "^1.11.3"
   },
   "devDependencies": {
-    "@ftbl/gulp": "^1.0.7",
+    "@ftbl/gulp": "^1.5.0",
     "chai": "^3.2.0",
     "chai-as-promised": "^5.1.0",
-    "gulp": "^3.9.0",
-    "mocha": "^2.2.5",
+    "gulp": "^3.9.1",
+    "mocha": "^2.4.5",
     "nock": "^2.10.0",
     "proxyquire": "^1.7.3",
-    "sinon": "^1.15.4",
+    "sinon": "^1.17.3",
     "sinon-as-promised": "^4.0.0",
     "sinon-chai": "^2.8.0",
-    "supertest": "^1.0.1"
+    "supertest": "^1.2.0"
   }
 }

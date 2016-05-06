@@ -1,3 +1,3 @@
-## @ftbl/harvest-service
+## @ftbl/aggregation-service
 
-Content harvesting services.
+Content aggregation services.

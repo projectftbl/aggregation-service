@@ -1,0 +1,34 @@
+[
+  { "name": "cristiano"
+  , "accounts": [
+      { "type": "twitter", "networkId": 155659213
+      , "secret":  "XpktbSjB63nX4lERRJWZu8RVM5yYbNmZRcXxHgTLTxEEf"
+      , "token":  "3297881-XYRi1O5YlOoY3JH5vLT9shaTjTdv08Y46M2aIms57n" 
+      }
+    ]
+  }
+
+  { "name": "Football Fancast", "accounts": [ { "url": "http://www.footballfancast.com/feed", "type": "rss" } ] }
+, { "name": "Rugby Drum", "accounts": [ { "url": "http://www.therugbydrum.com/feed", "type": "rss" } ] }
+, { "name": "Old Trafford Reds", "accounts": [ { "url": "http://www.oldtraffordreds.co.uk/feed", "type": "rss" } ] }
+, { "name": "Football League World", "accounts": [ { "url": "http://www.footballleagueworld.co.uk/feed", "type": "rss" } ] }
+, { "name": "The Gooner", "accounts": [ { "url": "http://www.thegooner.com/feed", "type": "rss" } ] }
+, { "name": "Our Kop", "accounts": [ { "url": "http://www.ourkop.com/feed", "type": "rss" } ] }
+, { "name": "Arsenal Mania", "accounts": [ { "url": "http://www.arsenal-mania.com/feed", "type": "rss" } ] }
+, { "name": "Chelsea Fancast", "accounts": [ { "url": "http://www.chelseafancast.com/feed", "type": "rss" } ] }
+, { "name": "Football Journalist", "accounts": [ { "url": "http://www.thefootballjournalist.com/feed", "type": "rss" } ] }
+, { "name": "Forever West Ham", "accounts": [ { "url": "http://www.foreverwestham.com/feed", "type": "rss" } ] }
+, { "name": "Nothing But Newcastle", "accounts": [ { "url": "http://www.nothingbutnewcastle.com/feed", "type": "rss" } ] }
+, { "name": "Red Flag Flying High", "accounts": [ { "url": "http://www.redflagflyinghigh.com/feed", "type": "rss" } ] }
+, { "name": "Gunnersphere", "accounts": [ { "url": "http://www.gunnersphere.com/feed", "type": "rss" } ] }
+, { "name": "The Shed Ender", "accounts": [ { "url": "http://www.theshedender.com/feed", "type": "rss" } ] }
+, { "name": "Forza Italian Football", "accounts": [ { "url": "http://www.forzaitalianfootball.com/feed", "type": "rss" } ] }
+, { "name": "Hotspur Way", "accounts": [ { "url": "http://www.hotspurway.com/feed", "type": "rss" } ] }
+, { "name": "The Celtic Blog", "accounts": [ { "url": "http://www.thecelticblog.com/feed", "type": "rss" } ] }
+, { "name": "Video Celts", "accounts": [ { "url": "http://www.videocelts.com/feed", "type": "rss" } ] }
+, { "name": "The Busby Way", "accounts": [ { "url": "http://www.thebusbyway.com/feed", "type": "rss" } ] }
+, { "name": "This Is Futbol", "accounts": [ { "url": "http://www.thisisfutbol.com/feed", "type": "rss" } ] }
+, { "name": "Live For Liverpool", "accounts": [ { "url": "http://www.live4liverpool.com/feed", "type": "rss" } ] }
+, { "name": "The Football Transfer Tavern", "accounts": [ { "url": "http://www.footballtransfertavern.com/feed", "type": "rss" } ] }
+]
+
