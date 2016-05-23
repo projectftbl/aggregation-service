@@ -1,6 +1,6 @@
 {
   "name": "@ftbl/aggregation-service",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Content aggregation services",
   "main": "node index",
   "scripts": {
