@@ -39,7 +39,7 @@
     "feedparser": "^1.1.4",
     "lodash": "^4.11.2",
     "moment": "^2.13.0",
-    "request": "^2.69.0",
+    "request": "^2.74.0",
     "sanitize-html": "^1.11.3"
   },
   "devDependencies": {
