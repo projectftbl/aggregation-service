@@ -48,7 +48,6 @@ var members = [
 , { "name": "The People's Person", "type": "publisher", "accounts": [ { "link": "http://thepeoplesperson.com/feed/", "network": "rss" } ] }
 , { "name": "A Grand Old Team", "type": "publisher", "accounts": [ { "link": "https://www.grandoldteam.com/feed/", "network": "rss" } ] }
 , { "name": "Knees Up Mother Brown", "type": "publisher", "accounts": [ { "link": "http://kumb.com/rss.php", "network": "rss" } ] }
-, { "name": "The Mag", "type": "publisher", "accounts": [ { "link": "http://www.themag.co.uk/feed/", "network": "rss" } ] }
 , { "name": "Football.co.uk", "type": "publisher", "accounts": [ { "link": "http://www.football.co.uk/news/rss.xml", "network": "rss" } ] }
 , { "name": "Cheekysport.co.uk", "type": "publisher", "accounts": [ { "link": "http://cheekysport.com/feed/", "network": "rss" } ] }
 , { "name": "Whoscored.com", "type": "publisher", "accounts": [ { "link": "https://www.whoscored.com/rss", "network": "rss" } ] }
@@ -62,12 +61,16 @@ var members = [
 
 ];
 
+members = [ 
+  { "name": "World Soccer", "type": "publisher", "accounts": [ { "link": "http://www.worldsoccer.com/feed", "network": "rss" } ] }
+];
+
 var links = _.chain(members).map('accounts').flatten().value();
 
 links.forEach(function(link) {
   rss(link).then(function(posts) {
     _.forEach(posts, function(post) {
-      if ((post.text == null || post.text === '') && (post.summary == null || post.summary === '')) console.log(post.source)
+      console.log(post);
     });
   });
 });
