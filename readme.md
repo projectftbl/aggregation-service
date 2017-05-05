@@ -1,3 +1,3 @@
-## @ftbl/aggregation-service
+## @recipher/aggregation-service
 
 Content aggregation services.
